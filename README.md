@@ -3,7 +3,7 @@ A sample project demonstrating how to set up akka remote deployment
 
 1. Set up local actor
 
-  `cd AkkaRemotei`
+  `cd AkkaRemoteClient`
 
   `sbt run`
 
