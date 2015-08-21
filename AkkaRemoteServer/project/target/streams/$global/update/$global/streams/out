@@ -83,7 +83,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#akkaremoteserver-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#akkaremoteserver-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fbd6af0[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b4398d8[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -1941,7 +1941,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.7!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 416ms :: artifacts dl 15ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 483ms :: artifacts dl 14ms[0m
 [0m[[0mdebug[0m] [0m	report for default#akkaremoteserver-build;0.1-SNAPSHOT compile produced in /Users/YiWei/Projects/JavaeeDemos/AkkaRemoteSample/AkkaRemoteServer/project/target/resolution-cache/reports/default-akkaremoteserver-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#akkaremoteserver-build;0.1-SNAPSHOT runtime produced in /Users/YiWei/Projects/JavaeeDemos/AkkaRemoteSample/AkkaRemoteServer/project/target/resolution-cache/reports/default-akkaremoteserver-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#akkaremoteserver-build;0.1-SNAPSHOT test produced in /Users/YiWei/Projects/JavaeeDemos/AkkaRemoteSample/AkkaRemoteServer/project/target/resolution-cache/reports/default-akkaremoteserver-build-test.xml[0m
@@ -1955,5 +1955,5 @@
 [0m[[0mdebug[0m] [0m	report for default#akkaremoteserver-build;0.1-SNAPSHOT docs produced in /Users/YiWei/Projects/JavaeeDemos/AkkaRemoteSample/AkkaRemoteServer/project/target/resolution-cache/reports/default-akkaremoteserver-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#akkaremoteserver-build;0.1-SNAPSHOT pom produced in /Users/YiWei/Projects/JavaeeDemos/AkkaRemoteSample/AkkaRemoteServer/project/target/resolution-cache/reports/default-akkaremoteserver-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#akkaremoteserver-build;0.1-SNAPSHOT scala-tool produced in /Users/YiWei/Projects/JavaeeDemos/AkkaRemoteSample/AkkaRemoteServer/project/target/resolution-cache/reports/default-akkaremoteserver-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (416ms resolve - 15ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (483ms resolve - 14ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

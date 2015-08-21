@@ -10,8 +10,6 @@ object CreationApplication {
   def main(args: Array[String]): Unit = {
     if (args.isEmpty || args.head == "CalculatorWorker")
       startRemoteWorkerSystem()
-    if (args.isEmpty || args.head == "Creation")
-      startRemoteCreationSystem()
   }
 
   def startRemoteWorkerSystem(): Unit = {
@@ -19,13 +17,4 @@ object CreationApplication {
     println("Started CalculatorWorkerSystem")
   }
 
-  def startRemoteCreationSystem(): Unit = {
-    val system =
-      ActorSystem("CreationSystem", ConfigFactory.load("remotecreation"))
-    val actor = system.actorOf(Props[CreationActor],
-      name = "creationActor")
-
-    println("Started CreationSystem")
-
-  }
 }

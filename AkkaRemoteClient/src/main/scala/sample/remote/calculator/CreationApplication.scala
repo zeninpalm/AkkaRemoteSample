@@ -18,7 +18,7 @@ object CreationApplication {
     val actor = system.actorOf(Props[CreationActor],
       name = "creationActor")
 
-    println("Started CreationSystem")
+    println("Started application")
     import system.dispatcher
     system.scheduler.schedule(1.second, 1.second) {
       if (Random.nextInt(100) % 2 == 0)
@@ -26,6 +26,5 @@ object CreationApplication {
       else
         actor ! Divide(Random.nextInt(10000), (Random.nextInt(99) + 1))
     }
-
   }
 }
