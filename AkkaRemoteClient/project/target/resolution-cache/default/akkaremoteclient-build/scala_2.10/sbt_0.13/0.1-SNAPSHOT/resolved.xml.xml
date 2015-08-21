@@ -4,7 +4,7 @@
 		module="akkaremoteclient-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150819133617"
+		publication="20150821115238"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
